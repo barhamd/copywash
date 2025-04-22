@@ -15,7 +15,7 @@ When you run `copywash`, it:
 Clone or copy this repo:
 
 ```sh
-git clone https://github.com/yourusername/CopyWash.git ~/path-to-your-utils-directory/CopyWash
+git clone https://github.com/barhamd/CopyWash.git ~/path-to-your-utils-directory/CopyWash
 ```
 
 Then make the script executable:
@@ -54,7 +54,7 @@ Copy some formatted text:
 **Hello, world!** This is _formatted_ text.
 ```
 
-The run:
+Then run:
 
 ```sh
 copywash
@@ -63,5 +63,5 @@ copywash
 Then paste somewhere:
 
 ```txt
-Hello, world! This is formatted text,.
+Hello, world! This is formatted text.
 ```
