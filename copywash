@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Strip formatting from macOS clipboard by piping through a temp plain text file
+temp_file=$(mktemp)
+pbpaste > "$temp_file"
+cat "$temp_file" | pbcopy
+rm "$temp_file"
