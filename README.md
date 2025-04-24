@@ -4,11 +4,11 @@
 
 ## What it does
 
-When you run `copywash`, it:
+When you run copywash, it:
 
 1. Grabs the current clipboard contents (formatted text)
-2. Writes it to a temporary plain text file (removing formatting)
-3. Reads it back in and replaces your clipboard with the plain version
+2. Pipes it through a cleaning filter that removes invisible and non-breaking Unicode characters (like zero-width spaces and non-breaking spaces)
+3. Replaces your clipboard with the cleaned, plain-text version
 
 ## Installation
 
